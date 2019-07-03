@@ -1,27 +1,28 @@
 {
-  "name": "jquery-ts",
+  "name": "19",
   "version": "1.0.0",
   "description": "Write web applications use jquery framework and typescript language",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.29",
+    "jquery": "^3.3.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.1",
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chenzuo/jquery-ts.git"
   },
-  "keywords": [
-    "jquery",
-    "typescript"
-  ],
-  "author": "chenzuo",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chenzuo/jquery-ts/issues"
   },
-  "homepage": "https://github.com/chenzuo/jquery-ts#readme",
-  "dependencies": {
-    "@types/jquery": "^3.3.30",
-    "jquery": "^3.4.1"
-  }
+  "homepage": "https://github.com/chenzuo/jquery-ts#readme"
 }
