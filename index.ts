@@ -1,9 +1,12 @@
-import {} from "jquery";
+import { } from "jquery";
 
 class Main {
     public show(text: string): void {
         const $ele: JQuery = $("h4");
-        $ele.text(text);
+        const dt = new Date();
+
+        const time = `${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`;
+        $ele.text(`${text} #${time}`);
     }
 }
 
